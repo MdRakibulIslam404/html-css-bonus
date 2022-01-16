@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BD flag</title>
+    <style>
+        body {
+            /* border: 2px solid rebeccapurple; */
+        }
+
+        .container {
+            border: 3px solid darkcyan;
+            position: relative;
+        }
+
+        #box-1 {
+            width: 150px;
+            height: 150px;
+            background-color: aquamarine;
+            margin: 10px;
+        }
+
+        #box-2 {
+            width: 150px;
+            height: 150px;
+            background-color: rgb(127, 131, 255);
+            margin: 10px;
+            position: relative;
+            left: 34px;
+            top: 34px;
+        }
+
+        #box-3 {
+            width: 150px;
+            height: 150px;
+            background-color: rgb(255, 210, 127);
+            margin: 10px;
+            position: absolute;
+            top: 32px;
+            left: 23px;
+        }
+
+        .flag {
+            position: relative;
+            /* border: 2px solid red; */
+            padding-bottom: 150px;
+        }
+
+        .green {
+            position: relative;
+            top: 100px;
+            left: 100px;
+            height: 400px;
+            width: 700px;
+            background-color: green;
+        }
+
+        .red {
+            position: relative;
+            left: 200px;
+            top: 75px;
+            background-color: red;
+            border-radius: 100%;
+            width: 250px;
+            height: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flag">
+
+        <div class="green">
+            <div class="red"></div>
+        </div>
+    </div>
+
+    <h1>Explore relative and absolute one more time</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae autem perspiciatis modi accusantium dolore fuga,
+        repellendus, accusamus porro placeat dolorem quisquam nesciunt iure ut ipsum labore, atque velit sunt expedita.
+    </p>
+    <div class="container">
+        <div class="box" id="box-1">box-1</div>
+        <div class="box" id="box-2">box-2</div>
+        <div class="box" id="box-3">box-3</div>
+    </div>
+
+</body>
+
+</html>
